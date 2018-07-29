@@ -4,12 +4,11 @@ services:
   node:
     build: ./
     volumes: 
-      - ".:/usr/src/node-mongodb-redis"
+      - ".:/usr/src/server"
     environment:
       - NODE_ENV=development
     ports:
       - "8080:8080"
-      - "3000:3000"
   mongo:
     image: mongo
     restart: always

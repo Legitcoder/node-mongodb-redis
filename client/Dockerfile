@@ -1,12 +1,13 @@
 FROM node:latest
 
-WORKDIR /usr/src/node-mongodb-redis
+WORKDIR /usr/src/client
 
 COPY . .
 
 RUN npm install -g parcel-bundler
 RUN npm install
+RUN npm rebuild node-sass
 
-EXPOSE 8080 3000
+EXPOSE 1234
 
 CMD ["npm", "start"]

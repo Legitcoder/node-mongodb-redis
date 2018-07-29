@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'frontend/dist')));
 
-app.get('/', (req, res, next) => {
+app.get('/yo', (req, res, next) => {
     res.send({first: "Moin" });
 });
 
