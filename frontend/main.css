@@ -1,0 +1,5 @@
+.dummy {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+}
