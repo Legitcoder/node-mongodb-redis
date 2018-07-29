@@ -2,5 +2,5 @@ mongo-password.txt
 mongo-user.txt
 node_modules
 node-mongodb-redis-data
-dist
-.cache
+frontend/dist
+frontend/.cache

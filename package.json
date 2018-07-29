@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "parcel watch frontend/index.html",
-    "devserver": "nodemon index.js",
-    "start": "npm-run-all --parallel watch devserver"
+    "watch": "parcel -p 3000 index.html",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +16,7 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
+    "node-sass": "^4.9.2",
     "nodemon": "^1.18.3",
     "npm-run-all": "^4.1.3"
   }

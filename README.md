@@ -1,2 +1,2 @@
 # Node-Mongodb-Redis
-## Docker Compose Boilerplate
+## Boilerplate

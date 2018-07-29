@@ -7,6 +7,6 @@ COPY . .
 RUN npm install -g parcel-bundler
 RUN npm install
 
-EXPOSE 8080 1234
+EXPOSE 8080 3000
 
-CMD ["/bin/bash"]
+CMD ["npm", "start"]
